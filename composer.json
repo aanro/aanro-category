@@ -1,0 +1,45 @@
+{
+  "name": "aanro/aanro-category",
+  "description": "Someline Category is a part of Someline Monster Components.",
+  "keywords": [
+    "category",
+    "service",
+    "someline-category",
+    "starter-framework",
+    "someline-starter",
+    "laravel"
+  ],
+  "homepage": "https://bitbucket.org/someline/someline-category",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Libern Lin",
+      "email": "libernlin@gmail.com",
+      "homepage": "https://www.someline.com/"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "laravel/framework": "5.2.*|5.3.*|5.4.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*"
+  },
+  "autoload": {
+    "files": [
+    ],
+    "psr-4": {
+      "Someline\\Component\\Category\\": "src/Someline/Component/Category"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Someline\\Components\\Category\\Test\\": "tests"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
