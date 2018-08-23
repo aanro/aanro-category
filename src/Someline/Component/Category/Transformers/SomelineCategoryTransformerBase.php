@@ -25,6 +25,7 @@ class SomelineCategoryTransformerBase extends BaseTransformer
 
             'type' => $model->type,
             'category_name' => $model->category_name,
+            'category_ename' => $model->category_ename,
             'parent_category_id' => $model->parent_category_id,
 
             'created_at' => (string)$model->created_at,

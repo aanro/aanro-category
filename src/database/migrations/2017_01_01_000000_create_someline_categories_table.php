@@ -20,8 +20,8 @@ class CreateSomelineCategoriesTable extends Migration
             // Adding more table related fields here...
             $table->string('type')->nullable();
             $table->string('identifier')->nullable();
-            $table->string('category_name');
-            $table->string('category_ename');
+            $table->string('category_name')->nullable();;
+            $table->string('category_ename')->nullable();;
             $table->unsignedInteger('parent_category_id')->index()->nullable();
             $table->unsignedInteger('someline_image_id')->index()->nullable();
             $table->mediumInteger('sequence')->nullable();

@@ -1,21 +1,21 @@
 {
   "name": "aanro/aanro-category",
-  "description": "Someline Category is a part of Someline Monster Components.",
+  "description": "aanro Category is a part of aanro Monster Components.",
   "keywords": [
     "category",
     "service",
-    "someline-category",
+    "aanro-category",
     "starter-framework",
-    "someline-starter",
+    "aanro-starter",
     "laravel"
   ],
-  "homepage": "https://bitbucket.org/someline/someline-category",
+  "homepage": "https://bitbucket.org/someline/aanro-category",
   "license": "MIT",
   "authors": [
     {
-      "name": "Libern Lin",
-      "email": "libernlin@gmail.com",
-      "homepage": "https://www.someline.com/"
+      "name": "SongJian",
+      "email": "502975@qq.com",
+      "homepage": "https://www.aanro.com/"
     }
   ],
   "require": {
